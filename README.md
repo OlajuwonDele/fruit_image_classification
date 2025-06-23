@@ -40,7 +40,7 @@ MLP: 39.06%
 
 LSTM: 29.64%
 
-The CNN model performed best, highlighting the strength of convolutional architectures for image classification. Although the Vision Transformer showed promise, its performance was limited by the relatively small dataset size, which is a known challenge for transformer-based models that typically require large amounts of data to generalize effectively. With more data, ViT models are expected to perform significantly better.
+The CNN model performed best, highlighting the strength of convolutional architectures for image classification. Although the Vision Transformer (ViT) showed promise, its performance was limited by the relatively small dataset size, which is a known challenge for transformer-based models that typically require large amounts of data to generalize effectively. With more data, ViT models are expected to perform significantly better.
 
 ## Technical Details
 Framework: TensorFlow/Keras
@@ -55,4 +55,4 @@ Data Augmentation: Rotation, zoom, horizontal flip
 
 Validation Split: 20%
 
-The notebook provides a solid foundation for image classification tasks and showcases how different architectures perform on the same dataset. The CNN model would be recommended for production use given its superior performance.
+The notebook provides a solid foundation for image classification tasks and showcases how different architectures perform on the same dataset. The CNN model would be recommended for production use given its superior performance for small datasets, ViT for larger datasets.
